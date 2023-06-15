@@ -26,8 +26,8 @@ namespace Data_analis
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            Form3 form3 = new Form3();
-            form3.Show();
+            Form2 form2 = new Form2();
+            form2.Show();
             this.Hide();
         }
 
