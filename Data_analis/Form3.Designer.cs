@@ -71,7 +71,7 @@ namespace Data_analis
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Monotype Corsiva", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(53, 54);
+            this.label1.Location = new System.Drawing.Point(29, 23);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(35, 15);
             this.label1.TabIndex = 0;
@@ -168,6 +168,7 @@ namespace Data_analis
             // 
             this.groupBox1.Controls.Add(this.textBox3);
             this.groupBox1.Controls.Add(this.textBox2);
+            this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.textBox5);
             this.groupBox1.Controls.Add(this.textBox1);
             this.groupBox1.Controls.Add(this.textBox4);
@@ -176,7 +177,7 @@ namespace Data_analis
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Font = new System.Drawing.Font("Monotype Corsiva", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(26, 30);
+            this.groupBox1.Location = new System.Drawing.Point(134, 70);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(720, 240);
             this.groupBox1.TabIndex = 10;
@@ -323,10 +324,10 @@ namespace Data_analis
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(940, 450);
             this.Controls.Add(this.bindingNavigator1);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.groupBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form3";
