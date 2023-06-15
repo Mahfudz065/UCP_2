@@ -35,5 +35,17 @@ namespace Data_analis
             form2.Show();
             this.Hide();
         }
+
+        private void bindingNavigatorMoveLastItem_Click(object sender, EventArgs e)
+        {
+            Form1 form1 = new Form1();
+            form1.Show();
+            this.Hide();
+        }
+
+        private void bindingNavigatorAddNewItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

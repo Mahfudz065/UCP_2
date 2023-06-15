@@ -62,7 +62,7 @@ namespace Data_analis
             this.phoneMhsDataGridViewTextBoxColumn,
             this.iDUserDataGridViewTextBoxColumn});
             this.dataGridView1.DataSource = this.mahasiswaBindingSource;
-            this.dataGridView1.Location = new System.Drawing.Point(208, 54);
+            this.dataGridView1.Location = new System.Drawing.Point(12, 67);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(644, 150);
             this.dataGridView1.TabIndex = 0;
@@ -126,7 +126,7 @@ namespace Data_analis
             // 
             this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button1.Location = new System.Drawing.Point(31, 337);
+            this.button1.Location = new System.Drawing.Point(31, 314);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(159, 70);
             this.button1.TabIndex = 1;
@@ -137,7 +137,8 @@ namespace Data_analis
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1196, 450);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(676, 450);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dataGridView1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
