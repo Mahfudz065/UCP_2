@@ -30,6 +30,7 @@ namespace Data_analis
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.prodiTIDataSet = new Data_analis.ProdiTIDataSet();
             this.prodiTIDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
@@ -50,6 +51,7 @@ namespace Data_analis
             // dataGridView1
             // 
             this.dataGridView1.AutoGenerateColumns = false;
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.Yellow;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.nIMDataGridViewTextBoxColumn,
@@ -59,7 +61,7 @@ namespace Data_analis
             this.phoneMhsDataGridViewTextBoxColumn,
             this.iDUserDataGridViewTextBoxColumn});
             this.dataGridView1.DataSource = this.mahasiswaBindingSource;
-            this.dataGridView1.Location = new System.Drawing.Point(526, 31);
+            this.dataGridView1.Location = new System.Drawing.Point(208, 54);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(644, 150);
             this.dataGridView1.TabIndex = 0;
@@ -125,8 +127,9 @@ namespace Data_analis
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1196, 450);
             this.Controls.Add(this.dataGridView1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "UMY Teknologi Informasi";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.prodiTIDataSet)).EndInit();
