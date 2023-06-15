@@ -10,17 +10,15 @@ using System.Windows.Forms;
 
 namespace Data_analis
 {
-    public partial class Form1 : Form
+    public partial class Form2 : Form
     {
-        public Form1()
+        public Form2()
         {
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            // TODO: This line of code loads data into the 'prodiTIDataSet.Mahasiswa' table. You can move, or remove it, as needed.
-            this.mahasiswaTableAdapter.Fill(this.prodiTIDataSet.Mahasiswa);
 
         }
     }
